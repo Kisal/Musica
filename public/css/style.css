@@ -1,0 +1,116 @@
+/* -- Logo -- */
+.logo a {
+    color: #a94442;
+}
+.logo a:hover, .logo a:focus{
+	color: #843330;
+	text-decoration: none;
+}
+/* -- Menu -- */
+.btn-default {
+	width: 100%;
+    color: #fff;
+    background-color: #a94442;
+    border-color: #a94442;
+}
+.btn-default:hover, .btn-default:focus{
+	 background-color: transparent;
+	 color: #a94442;
+	 border-color: #a94442;
+}
+.menu {
+    margin-top: 100px;
+}
+.menu .btn-default.btn-lg{
+	padding: 25px 31px;
+}
+/* -- List Discs & Singers -- */
+.listDiscs, .listSingers, .editDisc, .newDisc{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.listDiscs h2, .listSingers h2, .editDisc h2, .newDisc h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+a.btn.btn-link {
+    float: left;
+}
+.table td.links {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.btn.btn-dark {
+    color: #fff;
+    background: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    width: 100%;
+}
+.btn.btn-dark:hover, a.btn.btn-dark:focus {
+    background: transparent;
+    color: #333;
+}
+
+/** -- Forms -- **/
+input,textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+select {
+    background: transparent;
+    border-color: #ddd;
+    width: 100%;
+}
+
+.editDisc .btn-dark, .newDisc .btn-dark{
+	margin-top: 30px;
+}
+.btn{
+	transition: background-color 0.3s ease;
+}
+.btn:hover, .btn:focus{
+	transition: background-color 0.3s ease;
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1201px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 991px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 767px) {
+    .menu .btn-default.btn-lg{
+		margin-bottom: 30px;
+	}
+	.menu-interior .btn-default{
+		margin-bottom: 15px;
+	}
+	.table-responsive{
+		overflow: auto;
+	}
+	a.btn.btn-link {
+    	float: none;
+	}
+	.btn.btn-dark {
+		margin-bottom: 20px;
+	}
+	.listDiscs h2, .listSingers h2, .editDisc h2, .newDisc h2{
+		margin-bottom: 10px;
+	}
+}
