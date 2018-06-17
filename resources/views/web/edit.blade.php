@@ -46,6 +46,11 @@
 					</div>
 				</div>
 				<div class="form-group row">
+					<div class="col-xs-12 ">
+						<p>* fields are required</p>
+					</div>
+				</div>
+				<div class="form-group row">
 					<div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
 					<button class="btn btn-dark " type="submit">Update</button>
 					</div>
