@@ -33,7 +33,7 @@ class DiscController extends Controller
     public function store (Request $request) {
         $this->validate($request,[
             'name' => 'required|max:255',
-            'descripcion' => 'required|max:2000',
+            'description' => 'required|max:2000',
             'year' => 'required|integer',
             'singer' => 'required|exists:singers,id',
         ]);
@@ -64,7 +64,7 @@ class DiscController extends Controller
      public function update (Request $request, $disc_id) {
         $this->validate($request,[
             'name' => 'required|max:255',
-            'descripcion' => 'max:2000',
+            'description' => 'required|max:2000',
             'year' => 'required|integer',
             'singer' => 'required|exists:singers,id',
         ]);
