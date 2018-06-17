@@ -1,4 +1,4 @@
-@extends('layout.home')
+ @extends('layout.home')
 
 @section('content')
 <div id="content" class="container">
@@ -23,7 +23,7 @@
 					<div class="col-xs-12 col-sm-9"><input id="name" type="input" name="name"></div>
 				</div>
 				<div class="form-group row">
-					<label for="description" class="col-xs-12 col-sm-3">Description</label>
+					<label for="description" class="col-xs-12 col-sm-3">Description *</label>
 					<div class="col-xs-12 col-sm-9"><textarea id="description" name="description"></textarea> </div>
 				</div>
 				<div class="form-group row">
