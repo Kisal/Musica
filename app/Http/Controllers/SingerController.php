@@ -8,7 +8,7 @@ use Musica\Singer;
 class SingerController extends Controller
 {
 	public function index () {
-    	$singers = Singer::orderBy('name','ASC')->paginate();
+    	$singers = Singer::orderBy('name','ASC');
     	return view('web.listSingers',[
     		'singers' => $singers,
     	]);

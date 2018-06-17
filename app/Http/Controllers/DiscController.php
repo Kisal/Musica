@@ -9,7 +9,7 @@ use Musica\Singer;
 class DiscController extends Controller
 {
     public function index () {
-    	$discs = Disc::orderBy('name','ASC')->paginate();
+    	$discs = Disc::orderBy('name','ASC');
     	return view('web.listDisc',[
     		'discs' => $discs,
             'singer' => false,
